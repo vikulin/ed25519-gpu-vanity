@@ -8,7 +8,7 @@ Then I made the following changes:
 
 When it finds a match, it will log a line starting with MATCH, you will see the vanity address found and the secret (seed) in hex.
 
-A Solana keypair file is a text file with one line, that has 64 bytes as decimal numbers in json format. The first 32 bytes are the (secret) seed, the last 32 bytes are the public key. This public key, when represented in HEX format, is the (vanity) address. The line you are looking for is immediatley after the match line, something like this:
+This public key, when represented in HEX format, is the (vanity) address. The line you are looking for is immediatley after the match line, something like this:
 
 [00000000dedbc57518eb1063b08f041391667b570bf94ae36be45a926639e73b]
 
