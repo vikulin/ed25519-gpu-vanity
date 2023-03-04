@@ -5,6 +5,7 @@ I copied this from here: https://github.com/mcf-rocks/solanity
 
 Then I made the following changes:
 1. Implemented public keys verification for 4 bytes to be 0
+2. Removed unnecessary base58 verification
 
 When it finds a match, it will log a line starting with MATCH, you will see the vanity address found and the secret (seed) in hex.
 
